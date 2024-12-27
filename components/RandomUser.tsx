@@ -60,7 +60,7 @@ function RandomUser() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 text-foreground px-4">
+    <div className="flex flex-col items-center justify-center h-screen bg-gray-100 text-foreground px-4">
       <h1 className="text-3xl font-bold mb-4 text-center">Random User Generator</h1>
       <p className="text-muted-foreground mb-6 text-center">
         Click the button below to fetch a random user profile.
