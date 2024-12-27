@@ -43,7 +43,7 @@ function RandomUser() {
         description: fetchedUser.login.uuid,
       };
       setUser(newUser);
-    } catch (err) {
+    } catch {
       setError("Failed to fetch user. Please try again.");
     } finally {
       setLoading(false);
